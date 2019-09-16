@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="testnew(failed)">
+    <parameter name="pin code" value="546456"/>
+    <parameter name="city1" value="pune"/>
+    <parameter name="firstname1" value="farjeen"/>
+    <parameter name="address" value="akurdi"/>
+    <parameter name="mobile number" value="9876543209"/>
+    <parameter name="password12" value="passwd123"/>
+    <parameter name="confirmpasswd" value="passwd123"/>
+    <parameter name="lastname1" value="Attar"/>
+    <parameter name="username11" value="faree56"/>
+    <parameter name="state1" value="maharashtra"/>
+    <parameter name="url" value="http://www.newtours.demoaut.com/mercuryregister.php?osCsid=e9e69de5f8ea9596390680cfdc1e8566"/>
+    <parameter name="email" value="fg@gmail.com"/>
+    <classes>
+      <class name="com.model.registerloginnew">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+          <include name="beforeMethod"/>
+          <include name="Registerpagesuccessful" invocation-numbers="0"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.model.registerloginnew -->
+    </classes>
+  </test> <!-- testnew(failed) -->
+</suite> <!-- Failed suite [Suite] -->

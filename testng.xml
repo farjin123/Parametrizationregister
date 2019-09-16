@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="browser" value="chrome"></parameter>
+  <test thread-count="5" name="testnew">
+    <parameter name="url" value="http://www.newtours.demoaut.com/mercuryregister.php?osCsid=e9e69de5f8ea9596390680cfdc1e8566"></parameter>
+  <parameter name="firstname1" value="farjeen"></parameter>
+  <parameter name="lastname1" value="Attar"></parameter>
+  <parameter name="mobile number" value="9876543209"></parameter>
+  <parameter name="email1" value="fg@gmail.com"></parameter>
+  <parameter name="address1" value="akurdi"></parameter>
+  <parameter name="city1" value="pune"></parameter>
+  <parameter name="state1" value="maharashtra"></parameter>
+  <parameter name="pin code" value="546456"></parameter>
+  <parameter name="username11" value="faree56"></parameter>
+  <parameter name="password12" value="passwd123"></parameter>
+  <parameter name="confirmpasswd" value="passwd123"></parameter>
+ 
+    
+    <classes>
+      <class name="com.model.registerloginnew"/>
+    </classes>
+  </test> <!-- testnew -->
+</suite> <!-- Suite -->
